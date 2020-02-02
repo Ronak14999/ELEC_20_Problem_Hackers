@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upload_Details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_image_available"
+            android:id="@+id/iv_roomImage"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Select Image"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:onClick="btnSelectImage"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:spinnerMode="dropdown"
+                android:background="#E3E9E5"
+                android:id="@+id/selectState"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:spinnerMode="dropdown"
+                android:background="#E3E9E5"
+                android:id="@+id/selectCity"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#E3E9E5"
+                android:hint="House No."
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/house_no"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#E3E9E5"
+                android:hint="Area"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/area"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#E3E9E5"
+                android:hint="Contact Number"
+                android:inputType="phone"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textCursorDrawable="@android:color/black"
+                android:id="@+id/contact"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:spinnerMode="dropdown"
+                android:background="#E3E9E5"
+                android:id="@+id/selectPriority"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Upload Details"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:onClick="uploaddetailsbtn"
+
+                />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

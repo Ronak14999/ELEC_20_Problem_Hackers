@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/Search"
+       android:orientation="vertical"
+
+       >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_search_black_24dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advance Search Filter"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:onClick="advanceSearchbtn"
+            />
+
+    </LinearLayout>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:textSize="16sp"
+           android:hint="Search"
+           android:id="@+id/etsearch"/>
+
+
+   </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/Search">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/upload"
+        android:onClick="uploadbtn"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFilter">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:spinnerMode="dropdown"
+            android:background="#E3E9E5"
+            android:id="@+id/selectState"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:spinnerMode="dropdown"
+            android:background="#E3E9E5"
+            android:id="@+id/selectCity"
+
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:spinnerMode="dropdown"
+            android:background="#E3E9E5"
+            android:id="@+id/selectCoachingInstitute"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Search"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:onClick="searchbtn"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
