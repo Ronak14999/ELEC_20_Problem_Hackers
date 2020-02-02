@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "452633222730",
+    "firebase_url": "https://rental-care-b75f9.firebaseio.com",
+    "project_id": "rental-care-b75f9",
+    "storage_bucket": "rental-care-b75f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452633222730:android:2f4179f358ca9c006310b3",
+        "android_client_info": {
+          "package_name": "com.example.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452633222730-hikh2f6m34isrschel82penesqffk2lg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testing",
+            "certificate_hash": "061b983408a9a4349e0ebfa84b2c807bb2466bf6"
+          }
+        },
+        {
+          "client_id": "452633222730-745hgakqo5oi31qbqea59iq8grl4lscj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChOfe1uXwRrxTauQAwJW5zr0b2Eh3WXi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452633222730-745hgakqo5oi31qbqea59iq8grl4lscj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
